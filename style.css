@@ -1,0 +1,55 @@
+* {
+    margin: 10px auto;
+}
+.playfield {
+    /* margin: 20px auto; */
+    width: fit-content;
+    height: 300 px;
+    border: solid wheat 3px;
+    background-image: url(https://e0.pxfuel.com/wallpapers/211/634/desktop-wallpaper-shinning-stars-space-space-background-for-your-mobile-tablet-explore-space-space-space-night-sky-space.jpg);
+}
+body {
+    background: black;
+    text-align: center;
+    color: rgb(135, 119, 206);
+}
+
+.ship {
+    max-width: 80px;
+    height: auto;
+    padding: 20px 10px;
+    margin: 10px auto;
+}
+
+.spaceship {
+    max-width: 180px;
+    height: auto;
+    padding: 20px 10px;
+    margin: 10px auto;
+}
+
+.shooter {
+    background-color: red;
+    border-radius: 5px;
+}
+
+#player {
+    max-width: 400px;
+    margin: 200px auto 20px auto;
+}
+.message {
+    width: 90%;
+    font-size: 10pt;
+    color: white;
+}
+#fleet {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+}
